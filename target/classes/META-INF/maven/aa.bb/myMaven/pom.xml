@@ -23,10 +23,11 @@
     </dependency>
   </dependencies>
   
-  
+<!-- assembly all jar to create exceute jar -->
+<!--  
 <build>
   <plugins>
-  <!-- assembly all jar to create exceute jar -->
+  
     <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-shade-plugin</artifactId>
@@ -60,4 +61,5 @@
     </plugin>
   </plugins>
 </build>
+-->
 </project>
